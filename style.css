@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading-title {
+  @apply text-[#0D5EBA] font-bold text-xl lg:text-2xl
+}
+
+.global-padding {
+  @apply lg:px-16 px-5
+}
